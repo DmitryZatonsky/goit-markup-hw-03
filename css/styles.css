@@ -393,7 +393,6 @@ a {
 }
 
 .gallery-works .card-list {
-  padding-bottom: 20px;
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
@@ -403,6 +402,7 @@ a {
 .card-list .decoration {
   padding-left: 24px;
   padding-right: 24px;
+  padding-bottom: 20px;
 }
 
 .card-list:nth-child(3n) {
