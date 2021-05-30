@@ -190,6 +190,11 @@ a {
 
 /* section */
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section-title,
 .footer .title {
   margin-top: 0;
@@ -209,8 +214,6 @@ a {
 
 .feature {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .feature .item:not(:last-child) {
@@ -236,16 +239,20 @@ a {
 
 /* Работы */
 
-.work {
-  display: flex;
-  padding-bottom: 94px;
+.section-work {
+  padding-top: 0;
 }
 
-.work .section-title {
+.work {
+  display: flex;
+}
+
+.section-work .section-title {
   margin-bottom: 50px;
 }
 
 .work .heading {
+  margin-bottom: 30px;
   color: var(--title-text-color);
 }
 
