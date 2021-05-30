@@ -396,7 +396,7 @@ a {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .card-list .decoration {
