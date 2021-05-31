@@ -403,13 +403,16 @@ a {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #eeeeee;
 }
 
 .card-list .decoration {
+  padding-top: 20px;
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 20px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .card-list:nth-child(3n) {
@@ -422,7 +425,6 @@ a {
 
 .card-list img {
   display: block;
-  margin-bottom: 20px;
 }
 
 .gallery-works .heading {
